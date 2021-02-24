@@ -1,0 +1,40 @@
+.contatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box-size {
+  display: flex;
+  border-radius: 5px;
+  background-color: turquoise;
+  width: 300px;
+  height: 300px;
+  border: 2px solid Black;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.five-div {
+  display: flex;
+  border-radius: 5px;
+  background-color: turquoise;
+  width: 300px;
+  height: 300px;
+  border: 2px solid Black;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlap {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
